@@ -1,0 +1,19 @@
+@mixin flex($gap:/* valeur par défault */ null) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  @if($gap != null) {
+    gap: $gap
+  }
+}
+
+/* utiliser un mixin dans le code scss 
+importer @use "nom du fichier mixins" 
+
+puit l'utiliser dans ma classe
+.clase{
+  @include mixins.flex(2rem)
+}
+*/
