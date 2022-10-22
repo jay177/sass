@@ -1,3 +1,5 @@
+@use 'mixins.scss';
+
 *{
   margin: 0;
   padding: 0;
@@ -180,7 +182,7 @@ a {
 				margin-right: 0.4em;
 			}
 			&:after {
-				content: 'Wall';
+				content: 'chatelet';
 				text-transform: uppercase;
 				font-weight: 800;
 			}
@@ -445,7 +447,7 @@ a {
 			}
 			&:before {
 				display: inline;
-				content: 'View original Dribbble';
+				content: 'return home';
 				font-size: 2vh;
 				opacity: 0;
 				transform: translate3D(-200px, 0, 0);
@@ -616,7 +618,7 @@ $scrollTime: 1s;
 
   &-1 {
     .skw-page__half--left .skw-page__content {
-      background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-1.jpg');
+      background-image: url('img/chatelet1.jpeg');
     }
     .skw-page__half--right .skw-page__content {
       background: lighten(#1C1C1C, 5%);

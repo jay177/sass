@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,400,900,800i");
+/* utiliser un mixin dans le code scss 
+importer @use "nom du fichier mixins" 
+
+puit l'utiliser dans ma classe
+.clase{
+  @include mixins.flex(2rem)
+}
+*/
 * {
   margin: 0;
   padding: 0;
@@ -139,7 +147,7 @@ a {
   margin-right: 0.4em;
 }
 #hero-slides #header #logo:after {
-  content: "Wall";
+  content: "chatelet";
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -383,7 +391,7 @@ a {
 }
 #footer #dribbble:before {
   display: inline;
-  content: "View original Dribbble";
+  content: "return home";
   font-size: 2vh;
   opacity: 0;
   transform: translate3D(-200px, 0, 0);
@@ -526,7 +534,7 @@ body {
   color: #FFA0A0;
 }
 .skw-page-1 .skw-page__half--left .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-1.jpg");
+  background-image: url("img/chatelet1.jpeg");
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
   background: #292929;

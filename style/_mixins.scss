@@ -9,6 +9,51 @@
   }
 }
 
+@mixin content($im1: none , $im2: null) {
+  .skw-page{
+    &-1 {
+      .skw-page__half--left .skw-page__content {
+        background-image: url($im1);
+      }
+      .skw-page__half--right .skw-page__content {
+        background: lighten(#1C1C1C, 5%);
+      }
+    }
+    &-2 {
+      .skw-page__half--left .skw-page__content {
+        background: lighten(#1C1C1C, 5%);
+      }
+      .skw-page__half--right .skw-page__content {
+        background-image: url($im2);
+      }
+    }
+    &-3 {
+      .skw-page__half--left .skw-page__content {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-2.jpg');
+      }
+      .skw-page__half--right .skw-page__content {
+        background: lighten(#1C1C1C, 5%);
+      }
+    }
+    &-4 {
+      .skw-page__half--left .skw-page__content {
+        background: lighten(#1C1C1C, 5%);
+      }
+      .skw-page__half--right .skw-page__content {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg');
+      }
+    }
+    &-5 {
+      .skw-page__half--left .skw-page__content {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/img-test.jpg');
+      }
+      .skw-page__half--right .skw-page__content {
+        background: lighten(#1C1C1C, 5%);
+      }
+    }
+  }
+}
+
 /* utiliser un mixin dans le code scss 
 importer @use "nom du fichier mixins" 
 
