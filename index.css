@@ -24,7 +24,7 @@ puit l'utiliser dans ma classe
   size-adjust: auto;
 }
 
-a {
+.a {
   display: inline-block;
   background: #50576E;
   padding: 0.5em 1.25em;
