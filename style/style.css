@@ -20,6 +20,8 @@ puit l'utiliser dans ma classe
   z-index: 1;
 }
 .flex video {
+  width: 100vw -webkit-fit-content;
+  width: 100vw -moz-fit-content;
   width: 100vw fit-content;
   height: 100vh;
   size-adjust: auto;
@@ -437,6 +439,4 @@ a {
   #hero-slides #slides .slide {
     font-size: 0.75vw;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=style.css.map */
